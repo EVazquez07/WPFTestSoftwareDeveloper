@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPFTestSoftwareDeveloper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTestSoftwareDeveloper"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="nombre" HorizontalAlignment="Center" Margin="0,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Height="22"/>
+        <TextBox x:Name="apellidoP" HorizontalAlignment="Center" Margin="0,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Height="22"/>
+        <TextBox x:Name="apellidoM" HorizontalAlignment="Center" Margin="0,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Height="22"/>
+        <TextBox x:Name="identificador" HorizontalAlignment="Center" Margin="0,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Height="22" TextChanged="identificador_TextChanged"/>
+        <Button x:Name="crear" Content="Crear" HorizontalAlignment="Center" Margin="0,375,0,0" VerticalAlignment="Top" Width="116" Click="crear_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Center" Height="160" Margin="0,24,0,0" VerticalAlignment="Top" Width="154" Source="/add-user.png"/>
+        <Label x:Name="label" Content="Nombre*" HorizontalAlignment="Left" Margin="237,217,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Apellido Paterno*" HorizontalAlignment="Left" Margin="193,256,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Apellido Materno" HorizontalAlignment="Left" Margin="193,293,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Identificador*" HorizontalAlignment="Left" Margin="214,328,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
